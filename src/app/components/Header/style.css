@@ -1,0 +1,21 @@
+.header {
+    background-color: #0078D7;
+    color: white;
+    padding: 5px 20px;
+}
+
+.input-search {
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    padding: 5px 30px;
+    background-color: #cbd9ff;
+}
+
+.input-search:hover {
+    background-color: white;
+}
+
+.header a {
+    color: white;
+}

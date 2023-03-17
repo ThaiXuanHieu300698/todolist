@@ -1,0 +1,242 @@
+.task-page {
+  background-color: #f4f4f4;
+}
+
+.input-title,
+.input-step,
+.input-note,
+.input-detailTask,
+.step-title {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.input-title:focus {
+  border-bottom: 1px solid #0078D7;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-taskItem {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #4f4f50;
+  margin: 10px 0px;
+  width: 100%;
+  text-align: start;
+}
+
+.btn-add-important {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.step-completed {
+  margin: 0;
+  font-size: 13px;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.step-item form {
+  width: 100%;
+}
+
+.step-item input[type="text"] {
+  border-bottom: 2px solid #f4f4f4;
+}
+
+.btn-deleteStep {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: absolute;
+  right: 15px;
+}
+
+.btn-deleteStep svg {
+  color: #b3b3b4;
+}
+
+.taskItem {
+  padding: 5px 10px;
+  border-bottom: 2px solid #f4f4f4;
+}
+
+.taskItem:hover {
+  background-color: #f4f4f4;
+}
+
+.box-item-right {
+  margin: 10px;
+}
+
+.step-dueDate {
+  display: flex;
+  align-items: baseline;
+}
+
+.dueDate {
+  font-size: 13px;
+}
+
+.date-picler-custom .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.date-picler-custom .react-datepicker-wrapper .react-datepicker__input-container input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  height: calc(1.5em + 0.75rem + 2px);
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 0;
+  font-family: inherit;
+  outline: none;
+}
+
+.date-picler-custom .react-datepicker-wrapper .react-datepicker__input-container input:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+}
+
+
+.react-contextmenu {
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #dadada;
+  color: #b3b3b4;
+  font-size: 16px;
+  margin: 2px 0 0;
+  min-width: 160px;
+  outline: none;
+  opacity: 0;
+  padding: 5px 0;
+  pointer-events: none;
+  text-align: left;
+  transition: opacity 250ms ease !important;
+}
+
+.react-contextmenu-wrapper {
+  width: 100%;
+}
+
+.react-contextmenu.react-contextmenu--visible {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 9999;
+}
+
+.react-contextmenu-item {
+  background: 0 0;
+  border: 0;
+  color: #373a3c;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 3px 20px;
+  text-align: inherit;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.react-contextmenu-item.react-contextmenu-item--active,
+.react-contextmenu-item.react-contextmenu-item--selected {
+  background-color: #f4f4f4;
+  border-color: #f4f4f4;
+  text-decoration: none;
+}
+
+.react-contextmenu-item.react-contextmenu-item--disabled,
+.react-contextmenu-item.react-contextmenu-item--disabled:hover {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.15);
+  color: #878a8c;
+}
+
+.react-contextmenu-item--divider {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  cursor: inherit;
+  margin-bottom: 3px;
+  padding: 2px 0;
+}
+
+.react-contextmenu-item--divider:hover {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.react-contextmenu-item.react-contextmenu-submenu {
+  padding: 0;
+}
+
+.react-contextmenu-item.react-contextmenu-submenu>.react-contextmenu-item:after {
+  content: '▶';
+  display: inline-block;
+  position: absolute;
+  right: 7px;
+}
+
+.example-multiple-targets::after {
+  content: attr(data-count);
+  display: block;
+}
+
+
+.custom-root {
+  background-color: #fff;
+}
+
+.custom-divider {
+  background-color: #000;
+}
+
+.custom-selected {
+  background-color: #f00;
+}
+
+.btn-choose-datetime, .btn-choose-date {
+  color: #767678;
+  cursor: pointer;
+  display: block;
+  padding: 10px 10px 10px 10px;
+}
+
+.timePicker-input {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  padding: 5px;
+  border: 1px solid #ced4da;
+}
+
+.timePicker-input .timePicker-time {
+  direction: ltr;
+}
+
+.timePicker-input input {
+  border: none;
+  outline: none;
+  background: transparent;
+  text-align: center;
+  width: 25px;
+}

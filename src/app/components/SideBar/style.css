@@ -1,0 +1,27 @@
+.sidebar-link {
+    text-decoration: none;
+    color: #4f4f50;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px;
+}
+
+.sidebar-item {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-item span:nth-child(2) {
+    margin-left: 20px;
+}
+
+.sidebar-item:hover {
+    background-color: rgb(250, 250, 250);
+}
