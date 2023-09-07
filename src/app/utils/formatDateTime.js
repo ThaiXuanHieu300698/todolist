@@ -42,6 +42,7 @@ export const FormatMinutes = (date) => {
 
 export const NewDateTime = (oldDateTime, hour, minute) => {
   let dateTime = reduceDateTime(oldDateTime);
+  console.log(dateTime)
   let newDateTime =
     dateTime.year +
     "-" +
@@ -52,7 +53,7 @@ export const NewDateTime = (oldDateTime, hour, minute) => {
     hour +
     ":" +
     minute +
-    ":00.000Z";
+    ":00";
 
   return newDateTime;
 };
