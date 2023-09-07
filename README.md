@@ -12,7 +12,7 @@ Step 1. Clone the todolist-react repository from github:
 <p> todolist-react: </p>
 
 ```
-git clone https://github.com/ThaiXuanHieu/todolist-react.git
+git clone https://github.com/ThaiXuanHieu/todolist.git
 ```
 
 Step 2. install package.
